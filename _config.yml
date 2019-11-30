@@ -108,6 +108,9 @@ collections:
   science:
     output: true
     permalink: /:collection/:path/
+  writing:
+    output: true
+    permalink: /:collection/:path/
 
 # Site Author
 author:
@@ -300,6 +303,16 @@ defaults:
   - scope:
       path: ""
       type: "science"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false # true
+      share: true
+  # _writing
+  - scope:
+      path: ""
+      type: "writing"
     values:
       layout: single
       author_profile: false
