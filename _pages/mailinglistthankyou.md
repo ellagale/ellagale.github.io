@@ -1,5 +1,5 @@
 ---
-title: Thank You
+title: Sign-up successful!
 layout: single
 permalink: /mailinglist/thankyou
 ---
